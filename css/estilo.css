@@ -1,0 +1,289 @@
+/****************************
+		header
+****************************/
+header{
+	background-image: linear-gradient(to right, #fefef3fd, #fef1013b, #fffffb);
+}
+header .container-header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 32px;
+	
+}
+.logo{
+	width: 100px;
+	height: 36px;
+}
+.nav-header-ul{
+	list-style: none;
+	display: flex;
+	gap: 40px;
+}
+.nav-header-ul li{
+	display: block;
+}
+
+.link-header:hover{
+	color:#ff7104;
+	cursor: pointer;
+}
+.contrate{
+	background-color: #ff7104;
+	color: #f1f1f1;
+	padding: 12px;
+	border-radius: 9px;
+}
+.contrate:hover{
+	background-color: #ff7b00;
+	color: #f1f1f1;
+	box-shadow: inherit 0 0 6 12 rgba(243, 237, 237, 0.644);
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+/****************************
+		hero-section
+****************************/
+.hero-section{
+	height: 100vh;
+	width: 100%;
+	border-top: 1px solid #ff7104;
+	border-bottom: 1px solid #ff7104;
+	background-image: url(../img/back_hero.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-color: red;
+}
+
+
+
+
+
+
+
+
+/****************************
+		Secticon-Icons
+****************************/
+
+.section-icons{
+	padding: 96px 0;
+	margin-top: 128px;
+}
+.container-icons{
+	display: flex;
+	justify-content: center;
+	gap: 40px;
+}
+
+.section-icons{
+	padding: 48px 0;
+	margin-top: px;
+}
+.cont-header-icon{
+	text-align: center;
+	margin-bottom: 32px;
+}
+.container-icon{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 12px;
+}
+
+.icon-text{
+	font-size: 20px;
+	color: #555;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+.head-icon{
+	color: #555;
+}
+
+
+
+
+
+
+
+
+/****************************
+		Secticon-precos
+****************************/
+.section-precos{
+	padding: 96px 0;
+	margin-top: 96px;
+}
+.head-plan{
+	color: #ff7104;
+	margin-bottom: 40px;
+}
+.card-preco{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 24px;
+	padding: 48px;
+
+	border: none;
+	border-radius: 8px;
+	box-shadow:  0 12px 24px  rgba(255, 123, 0, 0.1);
+	background-color: #f7f7f7;
+	transition: 0.04s;
+	
+}
+.card-preco:hover{
+	transform: translate(0,-12px);
+	cursor: pointer;
+}
+.preco-principal{
+	z-index: 3;
+	position: relative;
+	overflow: hidden;
+	
+}
+.preco-principal::after{
+	content: "+Vendido";
+	display: block;
+	background-color: #cf0505;
+	color: #f1f1f1;
+	font-weight: 600;
+	text-align: center;
+	padding: 6px;
+	width: 100%;
+	position: absolute;
+	top: 40px;
+	right: -140px;
+	transform: rotate(45deg);
+}
+
+.velo{
+	font-size: 48px;
+	font-weight: 700;
+	color: #ff7104;
+	text-transform: uppercase;
+}
+.preco{
+	display: block;
+	font-size: 42px;
+	font-weight: 700;
+	color: #333;
+}
+
+.list-card{
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+	
+}
+.list-item{
+	display: flex;
+	align-items: center;
+	font-weight: 600;
+	color: #555;
+}
+
+
+.btn-sec-preco{
+	width: 100%;
+	text-align: center;
+}
+
+
+.icon-preco,
+.icon-preco:hover{
+	margin-left: 12px;
+	width: 24px;
+	height: 24px;
+	cursor: pointer;
+}
+
+.paramon{
+	font-family: "Satisfy";
+	font-style: italic;
+}
+
+/****************************
+		Secticon-servicos
+****************************/
+.section-servicos{
+	padding: 96px 0;
+	margin-top: 48px;
+	margin-bottom: 96px;
+}
+.servicos-img{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.servico-img{
+	margin-left: 32px;
+}
+
+.head-servico{
+	color: #555;
+	margin-bottom: 48px;
+	transition: 5s;
+}
+
+.servico-img:hover{
+	transform: scale(1.05);
+	cursor: pointer;
+}
+
+
+/****************************
+		Footer
+****************************/
+footer{
+	border-top: 1px solid #ff7104;
+	border-bottom: 1px solid #ff7104;
+	color: #555;
+	text-align: center;
+	
+}
+.logo-fx{
+	width: 100px;
+	height: 50px;
+}
+
+.links-footer{
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.link-footer{
+	display: flex;
+	align-items: center;
+}
+.link-footer:hover{
+	color:rgba(85, 85, 85, 0.466);
+	cursor: pointer;
+}
+.icon-footer{
+	width: 24px;
+	height: 24px;
+}
+
+.address{
+	font-size: 18px;
+	margin-top: 12px;
+	line-height: 1.6;
+}
+.copy{
+	display: inline-block;
+	margin-top: 12px;
+	font-size: 14px;
+	color: #333;
+}
